@@ -1,0 +1,29 @@
+public class Test {
+	public static void main(String[] args) {
+		Person p;
+		p = new Person("Palm", 20);
+		p.printDetails();
+		System.out.println();
+
+		p = new Teacher("Palm", 20, "Engineering");
+		p.printDetails();
+		System.out.println();
+
+		p = new Student("Palm", 20, "CoE");
+		p.printDetails();
+		System.out.println();
+
+		p = new Employee("Palmz", 20, 1);
+		p.printDetails();
+		System.out.println();
+
+		p = new PermanentEmployee("Palm", 20, 1, 99999);
+		p.printDetails();
+		System.out.println();
+
+		p = new ContractEmployee("Palm", 20, 1, 5000);
+		p.printDetails();
+		System.out.println();		
+
+	}
+}
