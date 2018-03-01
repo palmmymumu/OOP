@@ -1,6 +1,6 @@
 public class ContractEmployee extends Employee {
 
-	int payment;
+	private int payment;
 
 	public ContractEmployee(String name, int age, int employeeId, int payment) {
 		super(name, age, employeeId);

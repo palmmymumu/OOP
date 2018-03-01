@@ -1,6 +1,6 @@
 public class PermanentEmployee extends Employee {
 
-	int salary;
+	private int salary;
 
 	public PermanentEmployee(String name, int age, int employeeId, int salary) {
 		super(name, age, employeeId);

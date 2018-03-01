@@ -1,7 +1,7 @@
 public class Student extends Person {
 
-	String major;
-	double gpa;
+	private String major;
+	private double gpa;
 
 	public Student(String name, int age, String major, double gpa) {
 		super(name, age);

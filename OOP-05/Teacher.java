@@ -1,6 +1,6 @@
 public class Teacher extends Person {
 
-	String faculty;
+	private String faculty;
 
 	public Teacher(String name, int age, String faculty) {
 		super(name, age);
